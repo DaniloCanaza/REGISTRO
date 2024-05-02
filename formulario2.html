@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Itim&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Mascotas</title>
+    <link rel="stylesheet" href="assets/estilos/for2.css">
+</head>
+
+
+<body>
+
+    <nav class="menu">
+        <a href="interfaz.html">Regresar</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo" width="70" height="60">
+            </div>
+            <h1>Comprobante de Existencia <br> para registro con microchip</h1>
+        </header>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo" width="30" height="25">
+        </div>
+        <h3>DATOS ANIMAL</h3>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="especie">Especie:</label>
+            <select id="especie" name="especie" required>
+                <option value="">Seleccionar</option>
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+                <option value="Pájaro">Pájaro</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" name="raza">
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color">
+
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+
+            <label for="genero">Género:</label>
+            <select id="genero" name="genero">
+                <option value="">Seleccionar</option>
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+            </select>
+
+            <label for="esterilizado">¿Está su mascota esterilizada/castrada?</label>
+            <select id="esterilizado" name="esterilizado">
+                <option value="">Seleccionar</option>
+                <option value="Si">Sí</option>
+                <option value="No">No</option>
+            </select>
+
+            <label for="identificacion">Número de Identificación:</label>
+            <input type="text" id="identificacion" name="identificacion">
+
+            <label for="propietario">Nombre del Propietario:</label>
+            <input type="text" id="propietario" name="propietario" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="text" id="telefono" name="telefono">
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo">
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </div>
+
+</body>
+
+</html>

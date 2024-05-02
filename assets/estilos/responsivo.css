@@ -1,0 +1,177 @@
+@media only screen and (max-width:991px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSASn2hPb08pf_Wml6eeB0gLOX84KwcQpvFnOXS7G8vbQ&s);
+        background-size: cover;
+
+        font-family: "Itim", cursive;
+        font-size: 10px;
+        font-weight: 80;
+        font-style: normal;
+    }
+
+    content {
+        min-height: 70px;
+    }
+
+    .menu-icono {
+        width: 40px;
+        height: 50px;
+    }
+
+    header .menu {
+        top: 0;
+        padding: 15px;
+    }
+
+    body .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        right: 0;
+        display: none;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    body .logo {
+        padding: 0 30px;
+        width: 5px;
+        margin-right: 5px;
+        float: right;
+    }
+
+    body .logo-icono {
+        width: 45px;
+        height: 45px;
+    }
+
+    body header {
+        font-size: 15px;
+        background-color: #18af1f;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    body .menu a {
+        display: inline-block;
+        padding: 10px 5px;
+        background-color: #0c6911;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .menu a:hover {
+        background-color: #005f05;
+    }
+
+    body .menu ul.vertical {
+        display: block;
+    }
+
+    body .por_que h1 {
+        font-size: 40px;
+        text-align: center;
+        color: #1454a8;
+    }
+
+    body .por_que {
+        font-size: 25px;
+        text-align: center;
+        padding: 25px 5px;
+    }
+
+    .texto1 {
+        text-align: left;
+    }
+
+    .video {
+        background-color: #18af1f;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        padding: 70px;
+    }
+
+    .container {
+        font-size: 50px;
+        font-weight: 600;
+        color: #1454a8;
+        padding: 5px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .registroBtn {
+        display: inline-block;
+        padding: 25px 20px;
+        background-color: #18af1f;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 40px;
+        transition: background-color 0.3s ease;
+    }
+
+    .registroBtn:hover {
+        background-color: #1dd826;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        font-size: 20px;
+
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .footer-content {
+        background-size: cover;
+
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-content div {
+        color: aliceblue;
+        padding: 20px;
+    }
+
+    .footer-content h3 {
+        padding-left: 15px;
+    }
+
+    .footer-content p {
+        padding-top: 10px;
+        color: #ddd;
+    }
+
+    .footer-content .iconos {
+        font-size: 25px;
+    }
+
+    a:link,
+    a:visited {
+        color: #ddd;
+    }
+}
